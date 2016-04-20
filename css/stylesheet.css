@@ -1,0 +1,51 @@
+
+a.normalText {
+    text-decoration: none;
+    color: black;
+}
+
+.jumbotron {
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    position: relative;
+    background-color: rgba(238, 238, 238, .95)
+}
+
+.media-object {
+    height: 100px;
+    width: 100px;  }
+
+.return {
+    position: absolute;
+    bottom: 2%;
+    right: 1%;
+}
+
+.bg-video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background: url("../pictures/Background Image Conformis.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
