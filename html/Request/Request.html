@@ -10,6 +10,7 @@
     <!-- Bootstrap -->
     <link href="../../bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="../../css/stylesheet.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,7 +24,8 @@
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -56,23 +58,59 @@
 
 <div class=" container jumbotron">
     <div class="row">
-        <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
+        <div class="col-md-8 col-sm-8 col-xs-8 col-lg-8">
             <h1>Request A Quote</h1>
         </div>
     </div>
     <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
             <h3>Lorem Ipsum</h3>
-            <p>Lorem ipsum dolor sit amet, ius ne hinc movet necessitatibus, eam dicam placerat forensibus ei. Eu duo malis accusam epicurei, assum suscipit ei mei. Ei duis natum his. Iudico habemus an vis, ad mei doctus disputando theophrastus, diceret appetere persecuti mel ea. Te dicant quaeque cum. Ne vis dico menandri.</p>
+            <p>Lorem ipsum dolor sit amet, ius ne hinc movet necessitatibus, eam dicam placerat forensibus ei. Eu duo
+                malis accusam epicurei, assum suscipit ei mei. Ei duis natum his. Iudico habemus an vis, ad mei doctus
+                disputando theophrastus, diceret appetere persecuti mel ea. Te dicant quaeque cum. Ne vis dico
+                menandri.</p>
         </div>
     </div>
     <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
-            <p>Ipsum option legendos vix et, persius reprimique ad per. At fugit dolore usu, vel malis altera dissentias cu. Splendide efficiendi nec id. Pri amet error rationibus ad, has unum rebum molestie in, modo wisi gloriatur mel ea. Nostro commodo vix ea. Soluta tempor periculis has cu, nec ad habemus evertitur, pro ei mazim graeco ocurreret.</p>
+            <p>Ipsum option legendos vix et, persius reprimique ad per. At fugit dolore usu, vel malis altera dissentias
+                cu. Splendide efficiendi nec id. Pri amet error rationibus ad, has unum rebum molestie in, modo wisi
+                gloriatur mel ea. Nostro commodo vix ea. Soluta tempor periculis has cu, nec ad habemus evertitur, pro
+                ei mazim graeco ocurreret.</p>
             <hr>
         </div>
     </div>
+    <form name="email" id="emailform" method="post" action="Thanks.html">
+        <div class="form-horizontal">
+            <div class="row">
+
+                <label class="col-xs-1 col-md-1 col-lg-1 col-sm-1 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1" for="name">Name:</label><input class='col-xs-2 col-md-2 col-lg-2 col-sm-2'
+                       type="text" id="name" placeholder="Your Name" required>
+
+                <label class="col-xs-1 col-md-1 col-lg-1 col-sm-1 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1" for="email">Email:</label><input class='col-xs-2 col-md-2 col-lg-2 col-sm-2'
+                       type="email" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="row">
+                <br>
+            </div>
+            <div class="row">
+                <textarea
+                        class="col-xs-6 col-md-6 col-lg-6 col-sm-6 col-xs-offset-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2"></textarea>
+            </div>
+            <div class="row">
+                <br>
+            </div>
+            <div class="row">
+                <input class="col-xs-1 col-md-1 col-lg-1 col-sm-1 col-xs-offset-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2"
+                       type="submit">
+            </div>
+        </div>
+    </form>
 </div>
+<video class ="bg-video" autoplay  muted poster="../../pictures/Background%20Image%20Conformis.png" id="bgvid">
+    <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+    <source src="../../Videos/Conformis%20backgorund.mp4" type="video/mp4">
+</video>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
